@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title data-msg-template="${optionsButtonImportExport} - ${extensionName}"></title>
+    <link rel="stylesheet" href="export.css">
+    <link rel="stylesheet" href="/fonts/roboto.css">
+  </head>
+
+  <body>
+    <header>
+      <a href="#" id="backbtn" data-msg-name="importexportButtonBack"></a>
+      <h1 data-msg-template="${optionsButtonImportExport}"></h1>
+    </header>
+
+    <section id="export">
+      <h2 data-msg-name="importexportHeadingExport"></h2>
+      <textarea></textarea>
+    </section>
+
+    <section id="import">
+      <h2 data-msg-name="importexportHeadingImport"></h2>
+      <textarea></textarea>
+      <button data-msg-name="importexportButtonImport"></button>
+    </section>
+
+    <script src="export.js"></script>
+    <script src="/i18n.js" async></script>
+  </body>
+</html>

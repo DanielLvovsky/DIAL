@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title data-msg-template="${optionsTitle} - ${extensionName}"></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/fonts/roboto.css">
+    <link rel="stylesheet" href="options.css">
+    <script src="/js/Sortable/Sortable.min.js"></script>
+    <base target="_top">
+  </head>
+
+  <body>
+    <span id="vno"></span>
+    <form>
+      <h1 data-msg-name="extensionName"></h1>
+
+      <section id="apps">
+        <h2 data-msg-name="optionsHeadingShortcuts"></h2>
+        <div id="edit-apps-btn"><span data-msg-name="optionsButtonEditShortcuts"></span></div>
+        <label>
+          <span data-msg-name="optionsLabelIconBorderRadius"></span>
+          <input type="number" id="app_icon_border_radius" min="0" max="50">
+        </label>
+        <label class="full-width">
+          <input type="checkbox" id="use_fixed_grid" />
+          <span data-msg-name="optionsLabelFixedGridToggle"></span>:
+          <input type="number" id="fixed_grid_cols" min="0" step="1" />
+          <span data-msg-name="optionsLabelGridColumns"></span>
+          <input type="number" id="fixed_grid_rows" min="0" step="1" />
+          <span data-msg-name="optionsLabelGridRows"></span>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-msg-name="optionsHeadingBackground"></h2>
+        <select id="bgopt">
+          <option data-msg-name="optionsLabelPresetBackgrounds"></option>
+          <option value="bg">Mountains</option>
+          <option value="bg16">Alps</option>
+          <option value="bg17">Forest</option>
+          <option value="bg4">Desert</option>
+          <option value="bg2">Abstract</option>
+          <option value="bg13">Abstract</option>
+          <option value="bg14">Pattern</option>
+          <option value="bg15">Pattern</option>
+          <option value="bg3">Solid Blue</option>
+          <option value="bg18">Solid Purple</option>
+          <option value="bg6">Solid Red</option>
+          <option value="bg7">Solid Black</option>
+          <option value="bg8">Solid Orange</option>
+          <option value="bg9">Solid Grey</option>
+          <option value="bg10">Solid Green</option>
+          <option value="bg11">Solid Yellow</option>
+        </select>
+        <br>
+
+        <label>
+          <span data-msg-name="optionsLabelBackgroundURL"></span>
+          <input type="text" id="custombg" placeholder="http://">
+        </label>
+        <br>
+        <label>
+          <span data-msg-name="optionsLabelLocalBackground"></span>
+          <input type="button" value="Choose file" id="bglocalfacade">
+          <input type="file" id="bglocal" accept="image/*">
+        </label>
+
+        <div id="bgpreview-container">
+          <div id="bgpreview"></div>
+        </div>
+
+        <label>
+          <input type="checkbox" id="bgblur">
+          <span data-msg-name="optionsToggleBackgroundBlur"></span>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-msg-name="optionsHeadingDrawers"></h2>
+        <label>
+          <span data-msg-name="optionsLabelRecentlyClosedSitesCount"></span>
+          <input type="number" id="recsitecount" min="0" max="20">
+        </label>
+        <label>
+          <span data-msg-name="optionsLabelTopSitesCount"></span>
+          <input type="number" id="topsitecount" min="0" max="20">
+        </label>
+        <label>
+          <input type="checkbox" id="appsgridstyle">
+          <span data-msg-name="optionsToggleAppsGrid"></span>
+        </label>
+        <label>
+          <input type="checkbox" id="autoclose">
+          <span data-msg-name="optionsToggleCloseTabUponAppLaunch"></span>
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" id="showbookmarks">
+          <span data-msg-name="optionsToggleShowBookmarks"></span>
+        </label>
+        <label>
+          <input type="checkbox" id="showallbookmarks">
+          <span data-msg-name="optionsToggleListAllBookmarks"></span>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-msg-name="optionsHeadingSidebar"></h2>
+        <label>
+          <input type="checkbox" id="sidebarenabled">
+          <span data-msg-name="optionsToggleEnabled"></span>
+        </label>
+        
+        
+        <label class="full-width">
+          <span data-msg-name="optionsLabelNewsRSSURLs"></span>
+          <p data-msg-name="optionsHelpNewsRSSURLs"></p>
+          <textarea id="feedurls"></textarea>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-msg-name="optionsHeadingWeather"></h2>
+        <label>
+          <input type="checkbox" id="usefahrenheit">
+          <span data-msg-name="optionsToggleImperialUnits"></span>
+        </label><br>
+        <label class="full-width">
+          <input type="checkbox" id="override_wx_location" />
+          <span data-msg-name="optionsToggleWeatherForceCoords"></span>
+          <input class="wider-number-input" type="number" min="-90" max="90" step="0.0001" id="wx_coords_lat" placeholder="lat" />
+          <span>,</span>
+          <input class="wider-number-input" type="number" min="-180" max="180" step="0.0001" id="wx_coords_long" placeholder="long" />
+        </label>
+        <p data-msg-name="optionsHelpWeatherLocationOverrides"></p>
+      </section>
+
+      
+
+      <section>
+        <h2 data-msg-name="optionsHeadingOther"></h2>
+        <br>
+        <label>
+          <input type="checkbox" id="disableanimation">
+          <span data-msg-name="optionsToggleDisableAnimations"></span>
+        </label>
+        <br><br>
+
+        
+        <button type="button" id="resetdefaults" style="background-color:rgb(200,50,50)" data-msg-name="optionsButtonRestoreDefaults"></button><br /><br />
+
+        <button type="button"><a href="https://github.com/z-------------/New-New-Tab-Page" target="_blank" data-msg-name="optionsButtonGitHubRepo"></a></button>
+        <button type="button"><a href="/docs/privacy.html" target="_blank" data-msg-name="optionsButtonPrivacy"></a></button><br /><br />
+
+        <button type="button"><a href="https://daniellvovsky.netlify.app/#Contact" target="_blank" data-msg-name="optionsButtonGitHubIssue"></a></button>
+        <button type="button"><a href="mailto:danlvovsky@gmail.com?subject=DIAL Feedback" target="_blank" data-msg-name="optionsButtonEmail"></a></button>
+
+        <p data-msg-name="optionsHelpContact"></p>
+      </section>
+
+    </form>
+    <div id="bottomright">
+      <button id="save" style="background-color:rgb(0, 204, 85)" data-msg-name="optionsButtonSave"></button>
+    </div>
+
+    <script src="options.js"></script>
+    <script src="/i18n.js" async></script>
+  </body>
+</html>

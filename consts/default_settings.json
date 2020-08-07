@@ -1,0 +1,44 @@
+{
+    "default_settings": {
+        "slotCount": 3,
+        "appIconSize": 130,
+        "showAppsDrawer": true,
+        "topSiteCount": 6,
+        "recSiteCount": 3,
+        "showBookmarks": false,
+        "showAllBookmarks": false,
+        "firstRun": false,
+        "backgroundURL": "url(/img/bg.png)",
+        "bgBlur": false,
+        "disableAnimation": false,
+        "titleText": "",
+        "showFB": false,
+        "showFBNotif": false,
+        "showStumble": false,
+        "autoClose": true,
+        "showTumblr": false,
+        "apps": [],
+        "noAnimation": false,
+        "sidebarEnabled": true,
+        "appsgridstyle": false,
+        "feedurls": ["https://www.seattletimes.com/feed/","https://markets.businessinsider.com/rss/news","https://news.google.com/news/rss","https://www.forbes.com/fdc/rss.html#79a220d41131"],
+        "customCSS": "",
+        "appIconBorderRadius": 100,
+        "background": {
+            "images": [{
+                "type": "preset",
+                "uri": "/img/bg.png"
+            }],
+            "background": {
+                "color": "#2EABE5"
+            }
+        },
+        "useFixedGrid": true,
+        "fixedGridCols": 3,
+        "fixedGridRows": 4,
+        "overrideWxLocation": false,
+        "wxCoordsLat": 0,
+        "wxCoordsLong": 0,
+        "wxUseGPS": false
+    }
+}

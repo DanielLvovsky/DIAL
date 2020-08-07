@@ -1,0 +1,231 @@
+{
+    "extensionName": {
+      "message": "DIAL",
+      "description": "Name of the extension"
+    },
+    "newTabPageTitle": {
+      "message": "New Tab",
+      "description": "Text to show in tab title on new tab page"
+    },
+    "appsEditorURLLabel": {
+      "message": "URL",
+      "description": "Label for URL field in shortcuts editor"
+    },
+    "appsEditorIconLabel": {
+      "message": "Icon",
+      "description": "Label for icon field in shortcuts editor"
+    },
+    "appsEditorAutofindIconButton": {
+      "message": "Find one for me",
+      "description": "Text for button for automatic icon-fetching in shortcuts editor"
+    },
+    "appsEditorCancelButton": {
+      "message": "Cancel",
+      "description": "Text for cancel button in shortcuts editor"
+    },
+    "appsEditorSaveButton": {
+      "message": "Save",
+      "description": "Text for save button in shortcuts editor"
+    },
+    "drawerRecentlyClosedHeading": {
+      "message": "Recently closed",
+      "description": "Heading for recently closed sites in drawer"
+    },
+    "drawerTopSitesHeading": {
+      "message": "Top sites",
+      "description": "Heading for most visited sites in drawer"
+    },
+    "drawerChromeAppsHeading": {
+      "message": "Chrome Apps",
+      "description": "Heading for Chrome Apps in drawer"
+    },
+    "bookmarksHeading": {
+      "message": "Bookmarks",
+      "description": "Heading for bookmarks drawer"
+    },
+    "bookmarksEmptyMessage": {
+      "message": "Search for bookmarks and results will appear here",
+      "description": "Message shown when bookmarks drawer is empty, asking user to type to search"
+    },
+    "bookmarksNoResultsMessage": {
+      "message": "No search results :(",
+      "description": "Message shown when bookmarks search returned no results"
+    },
+    "bookmarksNoBookmarksMessage": {
+      "message": "No bookmarks :(",
+      "description": "Message shown when user has no bookmarks"
+    },
+    "appSearchPlaceholder": {
+      "message": "Search",
+      "description": "Placeholder in Chrome Apps search bar, shown when empty"
+    },
+    "bookmarksSearchPlaceholder": {
+      "message": "Search",
+      "description": "Placeholder in bookmarks search bar, shown when empty"
+    },
+    "findBarPlaceholder": {
+      "message": "Find",
+      "description": "Placeholder in Find bar, shown when empty"
+    },
+    "optionsHeadingShortcuts": {
+      "message": "Shortcuts"
+    },
+    "optionsButtonEditShortcuts": {
+      "message": "Edit shortcuts"
+    },
+    "optionsLabelIconBorderRadius": {
+      "message": "Icon border radius (in %):"
+    },
+    "optionsLabelFixedGridToggle": {
+      "message": "Use fixed grid"
+    },
+    "optionsLabelGridColumns": {
+      "message": "columns,"
+    },
+    "optionsLabelGridRows": {
+      "message": "rows"
+    },
+    "optionsHeadingBackground": {
+      "message": "Background"
+    },
+    "optionsLabelPresetBackgrounds": {
+      "message": "Preset backgrounds"
+    },
+    "optionsLabelBackgroundURL": {
+      "message": "URL"
+    },
+    "optionsLabelLocalBackground": {
+      "message": "Local"
+    },
+    "optionsToggleBackgroundBlur": {
+      "message": "Blur"
+    },
+    "optionsHeadingDrawers": {
+      "message": "Bookmarks & app drawer"
+    },
+    "optionsLabelRecentlyClosedSitesCount": {
+      "message": "No. of recently closed sites"
+    },
+    "optionsLabelTopSitesCount": {
+      "message": "No. of top sites"
+    },
+    "optionsToggleAppsGrid": {
+      "message": "Display apps as grid"
+    },
+    "optionsToggleCloseTabUponAppLaunch": {
+      "message": "Close tab after launching app"
+    },
+    "optionsToggleShowBookmarks": {
+      "message": "Show bookmarks"
+    },
+    "optionsToggleListAllBookmarks": {
+      "message": "List all bookmarks"
+    },
+    "optionsHeadingSidebar": {
+      "message": "Sidebar & news"
+    },
+    "optionsToggleEnabled": {
+      "message": "Enabled"
+    },
+    "optionsToggleFacebookMessages": {
+      "message": "Facebook Messages"
+    },
+    "optionsToggleFacebookNotifications": {
+      "message": "Facebook Notifications"
+    },
+    "optionsLabelNewsRSSURLs": {
+      "message": "News feed URLs"
+    },
+    "optionsHelpNewsRSSURLs": {
+      "message": "Enter the full URLs of the RSS feeds, one per line."
+    },
+    "optionsHeadingWeather": {
+      "message": "Weather"
+    },
+    "optionsToggleWeatherGPS": {
+      "message": "Use GPS location if possible"
+    },
+    "optionsToggleWeatherForceCoords": {
+      "message": "Force weather coordinates:"
+    },
+    "optionsHelpWeatherLocationOverrides": {
+      "message": "Note: 'Force weather coordinates' overrides IP address location."
+    },
+    "optionsHeadingCustomCSS": {
+      "message": "Custom CSS"
+    },
+    "optionsHelpCustomCSS": {
+      "message": "Enter your custom CSS stylesheet here."
+    },
+    "optionsHeadingOther": {
+      "message": "Other"
+    },
+    "optionsLabelNewTabTitleText": {
+      "message": ""
+    },
+    "optionsToggleDisableAnimations": {
+      "message": "Disable animations"
+    },
+    "optionsToggleImperialUnits": {
+      "message": "Convert to fahrenheit."
+    },
+    "optionsButtonImportExport": {
+      "message": "Import/export options"
+    },
+    "optionsButtonRestoreDefaults": {
+      "message": "Reset to defaults"
+    },
+    "optionsButtonRestoreDefaultsConfirm": {
+      "message": "Click again to confirm"
+    },
+    "optionsButtonEmail": {
+      "message": "Email the developer"
+    },
+    "optionsButtonGitHubIssue": {
+      "message": "Visit the developers website"
+    },
+    "optionsButtonCredits": {
+      "message": "Acknowledgements"
+    },
+    "optionsButtonPrivacy": {
+      "message": "Privacy Policy"
+    },
+    "optionsButtonGitHubRepo": {
+      "message": "View GitHub repo"
+    },
+    "optionsButtonSave": {
+      "message": "Save"
+    },
+    "optionsTitle": {
+      "message": "Options",
+      "description": "Text shown in tab title on options page alongside extension name"
+    },
+    "optionsHelpContact": {
+      "message": "The best way to reach me about issues, feedback, suggestions, or support is via the above two options."
+    },
+    "importexportButtonBack": {
+      "message": "Back",
+      "description": "Button shown in Import/export options taking user back to options page"
+    },
+    "importexportHeadingExport": {
+      "message": "Export",
+      "description": "Heading shown above export data"
+    },
+    "importexportHeadingImport": {
+      "message": "Import",
+      "description": "Heading shown above import data input field"
+    },
+    "importexportButtonImport": {
+      "message": "Import",
+      "description": "Button to start import process"
+    },
+    "importexportOverwriteConfirmation": {
+      "message": "Are you sure you want to overwrite your current options?",
+      "description": "Message in confirmation dialog asking user to confirm they want to overwrite old options"
+    },
+    "importexportSuccessMessage": {
+      "message": "Finished importing :D",
+      "description": "Message shown in alert dialog confirming success of options import"
+    }
+  }
+  

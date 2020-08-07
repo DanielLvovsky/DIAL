@@ -1,6 +1,6 @@
 A minimal new tab page for Google Chrome
 
-![DIAL screenshot]()
+![DIAL screenshot](https://raw.githubusercontent.com/DanielLvovsky/DIAL/master/screenshot.png?token=ANBXHD7ENWE3X2AXUBUHKLK7FXECM)
 
 [Features](#features) • [Install](#install) • [License](#license)
 

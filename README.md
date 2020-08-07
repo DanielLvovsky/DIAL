@@ -1,3 +1,43 @@
+A minimal new tab page for Google Chrome
+
+![DIAL screenshot]()
+
+[Features](#features) • [Install](#install) • [License](#license)
+
+## Current Features
+
++ **Customizable shortcuts**
+
++ **Customizable background**
+
++ **Weather + News**
+
++ **App launcher**
+
++ **Bookmarks, top sites, and recently closed**
+
+## Upcoming Features
+
++ **Facebook Notifacations and Messages**
++ **ToDo List**
++ **Support for animated backgrounds**
+
+## Install
+
+[**Chrome Web Store**]() – one-click installation, future updates will be automatic
+
+
+
+### Manual installation
+
+1. Download and unzip the zip file.
+2. Go to `chrome://extensions`.
+3. Enable "Developer mode" and click "Load unpacked extension".
+4. Choose the directory you unzipped New New Tab Page into.
+
+## License
+
+```
 MIT LICENSE
 
 Copyright (c) 2020 Daniel Lvovsky
@@ -19,3 +59,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+`````````````````````````````````````````````````````````````````````````````

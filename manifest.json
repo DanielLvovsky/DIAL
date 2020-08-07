@@ -1,0 +1,35 @@
+{
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "description": "Replaces the default new tab page with a stylized and a fully customizable page with links to your most visited websites",
+    "icons": {
+        "16": "img/icon16.png",
+        "128": "img/icon128.png"
+    },
+    "browser_action": {
+        "128":"img/icon_128.png"
+  },
+    "author": "Daniel Lvovsky",
+    "manifest_version": 2,
+    "minimum_chrome_version": "69",
+    "name": "New Tab - DIAL",
+    "options_page": "options/options.html",
+    "version": "2.0.0",
+    "short_name": "DIAL",
+    "default_locale": "en",
+    "permissions": [
+        "topSites",
+        "management",
+        "bookmarks",
+        "storage",
+        "sessions",
+        "tabs",
+        "*://*/*"
+    ],
+    "background": {
+        "page": "newtab.html",
+        "persistent": true
+    }
+}

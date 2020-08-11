@@ -24,7 +24,7 @@ A minimal new tab page for Google Chrome
 
 ## Install
 
-[**Chrome Web Store**]() – one-click installation, future updates will be automatic
+[**Chrome Web Store**](https://chrome.google.com/webstore/detail/new-tab-dial/jhcadhkfandbknkhibmfojeibbgjehmn) – one-click installation, future updates will be automatic
 
 
 

@@ -1,24 +1,30 @@
-A minimal new tab page for Google Chrome
+A chrome extension that adds an Unsplash button and when clicked on displays images retrieved from Unsplash.com
 
-![DIAL screenshot](https://lh3.googleusercontent.com/6XHgoSPkVHvL1PloIZM0okkseAS73PTDzYkt8y-d9yvGIbGptVEuam3WK_-Tqgqo_5W5u2rNMw=w640-h400-e365)   
+![DIAL screenshot](https://lh3.googleusercontent.com/JDRFm0Hcs-cW7oqTZl_PKyYZhSvY5IzxxfU0E6NMVSFInRnrkym_6D3YGMU2rKiETfq488Iexg=w640-h400-e365)   
 
 [Features](#features) • [Install](#install) • [License](#license)
 
 ## Current Features
 
-+ **Random Image Generator**
++ **Customizable shortcuts**
 
-+ **Searchable Images**
++ **Customizable background**
 
-+ **Download option as well as size selection**
++ **Weather + News**
 
-+ **Image file details**
++ **App launcher**
 
-+ **Links to authors social media**
++ **Bookmarks, top sites, and recently closed**
+
+## Upcoming Features
+
++ **Facebook Notifacations and Messages**
++ **ToDo List**
++ **Support for animated backgrounds**
 
 ## Install
 
-[**Chrome Web Store**](https://chrome.google.com/webstore/detail/quick-unsplash/bcehcdieplbonpeognpgfkpldfknbgkh?hl=en&authuser=0) – one-click installation, future updates will be automatic
+[**Chrome Web Store**](https://chrome.google.com/webstore/detail/new-tab-dial/jhcadhkfandbknkhibmfojeibbgjehmn) – one-click installation, future updates will be automatic
 
 
 

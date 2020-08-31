@@ -1,30 +1,24 @@
 A minimal new tab page for Google Chrome
 
-![DIAL screenshot](https://lh3.googleusercontent.com/JDRFm0Hcs-cW7oqTZl_PKyYZhSvY5IzxxfU0E6NMVSFInRnrkym_6D3YGMU2rKiETfq488Iexg=w640-h400-e365)   
+![DIAL screenshot](https://lh3.googleusercontent.com/6XHgoSPkVHvL1PloIZM0okkseAS73PTDzYkt8y-d9yvGIbGptVEuam3WK_-Tqgqo_5W5u2rNMw=w640-h400-e365)   
 
 [Features](#features) • [Install](#install) • [License](#license)
 
 ## Current Features
 
-+ **Customizable shortcuts**
++ **Random Image Generator**
 
-+ **Customizable background**
++ **Searchable Images**
 
-+ **Weather + News**
++ **Download option as well as size selection**
 
-+ **App launcher**
++ **Image file details**
 
-+ **Bookmarks, top sites, and recently closed**
-
-## Upcoming Features
-
-+ **Facebook Notifacations and Messages**
-+ **ToDo List**
-+ **Support for animated backgrounds**
++ **Links to authors social media**
 
 ## Install
 
-[**Chrome Web Store**](https://chrome.google.com/webstore/detail/new-tab-dial/jhcadhkfandbknkhibmfojeibbgjehmn) – one-click installation, future updates will be automatic
+[**Chrome Web Store**](https://chrome.google.com/webstore/detail/quick-unsplash/bcehcdieplbonpeognpgfkpldfknbgkh?hl=en&authuser=0) – one-click installation, future updates will be automatic
 
 
 

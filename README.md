@@ -1,4 +1,4 @@
-A chrome extension that adds an Unsplash button and when clicked on displays images retrieved from Unsplash.com
+A minimal new tab page for Google Chrome
 
 ![DIAL screenshot](https://lh3.googleusercontent.com/JDRFm0Hcs-cW7oqTZl_PKyYZhSvY5IzxxfU0E6NMVSFInRnrkym_6D3YGMU2rKiETfq488Iexg=w640-h400-e365)   
 

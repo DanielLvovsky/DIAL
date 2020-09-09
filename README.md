@@ -18,9 +18,9 @@ A chrome extension that adds an Unsplash button and when clicked on displays ima
 
 ## Upcoming Features
 
-+ **Facebook Notifacations and Messages**
++ **Facebook Notifacations and Messages**✅
 + **ToDo List**
-+ **Support for animated backgrounds**
++ **Support for animated backgrounds**✅
 
 ## Install
 
